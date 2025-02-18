@@ -1,21 +1,13 @@
-import * as React from 'react';
+// pages/index.tsx
+
 import Navbar from '@/components/Navbar';
 import MainPage from '@/components/MainPage';
-import About from '../components/About';
-import Resume from '../components/Resume';
-import Portfolio from '../components/Portfolio';
-import ContactMe from '../components/ContactMe';
-
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <MainPage />
-      <About />
-      <Resume />
-      <Portfolio />
-      <ContactMe />
+      <MainPage /> {/* This will always show the main page */}
     </>
   );
 }
